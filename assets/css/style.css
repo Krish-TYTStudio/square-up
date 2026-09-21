@@ -1302,15 +1302,39 @@ body {
     padding: 50px 50px;
   }
   .footer .foo-con-1 {
-    flex-wrap: wrap;
-    row-gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 40px;
+  }
+  .footer .foo-con-1 img {
+    height: 44px;
   }
   .footer .foo-con-1 .a-tags {
-    gap: 22px;
+    margin-left: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+  .footer .foo-con-1 .social {
+    margin-left: 0 !important;
+    width: 100%;
+    justify-content: center;
+  }
+  .footer .foo-con-2 {
+    margin-top: 40px;
   }
   .footer .foo-con-2 .le-foo {
-    flex-wrap: wrap;
-    row-gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .footer .foo-con-2 .le-foo .cont {
+    border-bottom: none;
+  }
+  .footer .foo-con-2 .le-foo .ri-foo {
+    margin-left: 0 !important;
+    text-align: center;
   }
 }
 @media (min-width: 993px) and (max-width: 1200px) {

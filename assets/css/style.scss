@@ -1388,16 +1388,38 @@ body {
   .footer {
     padding: 50px 50px;
     .foo-con-1 {
-      flex-wrap: wrap;
-      row-gap: 24px;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      padding-bottom: 40px;
+      img {
+        height: 44px;
+      }
       .a-tags {
-        gap: 22px;
+        margin-left: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+      }
+      .social {
+        margin-left: 0 !important;
+        width: 100%;
+        justify-content: center;
       }
     }
     .foo-con-2 {
+      margin-top: 40px;
       .le-foo {
-        flex-wrap: wrap;
-        row-gap: 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        .cont {
+          border-bottom: none;
+        }
+        .ri-foo {
+          margin-left: 0 !important;
+          text-align: center;
+        }
       }
     }
   }
